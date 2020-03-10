@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One|Timmana&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+#app {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.launch {
+  width: 60%;
+  background: #3d3d3c;
+  color: #fccf03;
+  font-family: 'Timmana', sans-serif;
+  font-size: 1.4rem;
+  padding: 10px 20px;
+  margin: 15px 0;
+}
+
+.launch-title {
+  font-family: 'Carter One', sans-serif;
+  font-size: 1.8rem;
+  margin: 0 0 10px 0;
+}
+
+.launch p {
+  line-height: 1.4rem;
+}
